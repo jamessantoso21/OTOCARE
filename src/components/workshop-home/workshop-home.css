@@ -1,0 +1,93 @@
+.homeContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    width: 80%;
+    height: 1000px;
+    justify-self: center;
+    margin-top: 5%;
+}
+
+.workshopHome-header{
+    font-family: Days One;
+    font-weight: 300;
+    font-size: 2rem;
+    color: #2B4448;
+}
+.workshopHome-text{
+    font-family: Days One;
+    font-weight: 200;
+    font-size: 1.5rem;
+    justify-self: left;
+    color: #2B4448;
+}
+
+
+.titleContainer{
+    justify-self: left;
+    margin-bottom: 2%;
+}
+
+.mapContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 450px;
+}
+.MapOrderBtn{
+    justify-self: center;
+    width: 20%;
+}
+
+
+.getOrder-btn,.viewOrder-btn,.manualOrder-btn {
+    background-color: #FF6C00;
+    height: 50px;
+    width: 20%;
+    display: flex;
+    text-wrap: none;
+    justify-content: center;
+    align-items: center;
+    padding: 0 4%;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    text-align: center;
+    font-family: Days One;
+    font-weight: 400;
+    text-decoration: none;
+  }
+  
+  .getOrder-btn{
+      width: 100%;
+      
+    }
+    
+    .getOrder-btn:hover,.viewOrder-btn:hover,.manualOrder-btn:hover {
+        background-color: #FF8F3C;
+    }
+
+    .dashboardContainer{
+        margin-top: 3%;
+        margin-bottom: 3%;
+        display: flex;
+        flex-direction: column;
+        height: 250px;
+        width: 100%;
+        
+        justify-content: space-between;
+    }
+ 
+    .viewOrder-btn{
+        margin-top: 1%;
+    }
+    
+    .manualOrder{
+        margin-bottom: 5%;
+        display: flex;
+        flex-direction: column;
+        height: 90px;
+        width: 100%;
+        justify-content: space-between;
+    }

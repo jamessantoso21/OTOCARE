@@ -1,0 +1,93 @@
+.aboutUs-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2% 0;
+    padding: 0 20px; 
+    box-sizing: border-box;
+  }
+  
+  .aboutUs-wrapper {
+    width: 100%;
+    max-width: 1200px; 
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap; 
+  }
+  
+  .aboutUs-left-container, .aboutUs-right-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 48%; 
+    margin-bottom: 20px; 
+    box-sizing: border-box;
+  }
+  
+  .aboutUs-img-left, .aboutUs-img-right {
+    width: 100%;
+    height: auto; 
+  }
+  
+  .aboutUs-text-1, .aboutUs-text-2 {
+    font-family: 'Inter';
+    font-size: 1.25rem;
+    text-align: justify;
+    letter-spacing: -2%;
+    line-height: 2;
+    margin-top: 20px; 
+  }
+  
+  .aboutUs-logo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .aboutUs-header {
+    font-family: 'Days One', sans-serif;
+    color: #FF6C00;
+    font-weight: 400;
+    margin-left: 10px;
+  }
+  
+  .aboutUs-right-container > h2 {
+    color: #2B4448;
+  }
+  
+  @media (max-width: 768px) {
+    .aboutUs-wrapper {
+      flex-direction: column-reverse; 
+      align-items: center;
+    }
+  
+    .aboutUs-left-container, .aboutUs-right-container {
+      width: 100%; 
+    }
+    .aboutUs-left-container{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+  
+    .aboutUs-right-container > h2 {
+      margin-top: 10px;
+    }
+  
+    .aboutUs-text-1, .aboutUs-text-2 {
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .aboutUs-header {
+      font-size: 1.5rem;
+    }
+  
+    .aboutUs-text-1, .aboutUs-text-2 {
+      font-size: 0.875rem;
+    }
+  }
+  

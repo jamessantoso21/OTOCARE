@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Days+One&family=Inter:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+
+/* ProfileTag css */
+.profiletag-container {
+  justify-content: center;
+  align-items: center;
+  background-color: #f4f4f4;
+}
+
+.profiletag-wrapper {
+  display: flex;
+  align-items: center;
+  padding-top: 3%;
+  margin-left: 5%;
+  
+}
+
+.profiletag-wrapper img {
+  width: 40px;
+  height: 30px;
+  
+}
+
+.profiletag h1 {
+  margin-left: 30%; 
+  font-family: 'Days one';
+  font-weight: lighter;
+}
+
+/* Profile Pic css */
+.profilepic-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+  background-color: #F4F4F4;
+  
+}
+
+.profilepic-wrapper{
+  background-color: #F4F4F4;
+
+}
+
+.profilepic-top{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profilepic-top img{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.profilepic-bot{
+  text-align: center;
+}
+
+.profilepic-bot h2{
+  color: #000000;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.profilepic-bot h3{
+  color: #898989;
+  margin-bottom: 15px;
+  text-align: center;
+  font-family: 'inter' sans-serif;
+  font-weight: initial;
+}
+
+/* User Profile css */
+.UserProfile-container {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 80px;
+  align-items: center;
+  height: 800px;
+  background-color: #f4f4f4;
+  padding-top: 100px;
+}
+
+.UserProfile-wrapper {
+  background-color: #f4f4f4;
+  padding: 20px;
+  margin-bottom: 100px;
+  border-radius: 8px; 
+  max-width: 700px;
+  width: 100%;
+}
+
+.UserProfile-wrapper Link {
+  text-decoration: none;
+  color: #FF6C00;
+  font-size: 16px;
+  display: block;
+  text-align: left;
+  margin-top: 10px;
+}
+
+.UserProfile-wrapper h2 {
+  margin-bottom: 50px;
+  font-family: 'Days One';
+  text-align: left;
+  color: #1f0808;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; 
+  background-color: #f4f4f4;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 700px; 
+  width: 100%;
+}
+
+.button-container button {
+  width: 150px; /* Take full width of the container */
+  padding: 10px;
+  color: white;
+  background-color: #FF6C00;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  margin-bottom: 10px;
+}
+
+.button-container button:hover {
+  background-color: #e65a00;
+}
+
+.changeaccount {
+  text-decoration: none;
+  color: #FF6C00;
+  font-size: 16px;
+  display: block;
+  text-align: left;
+  margin-top: 10px;
+}
+
+
+
+.user-info {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+.user-info label {
+  font-weight: bold;
+  color: #000000;
+  width: 150px;
+  padding-bottom: 20px;
+  margin-right: 10px;
+  text-align: left;
+  font-family: 'Inter';
+}
+
+.info-box {
+  flex-grow: 5;
+  font-family: 'Inter';
+  font-weight: bold;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+  color: #7F7F7F;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Responsive */
+@media only screen and (max-width: 768px) {
+    .container {
+      flex-direction: column;
+    }
+  
+    .login-wrapper {
+      flex-direction: column;
+      padding: 10px;
+    }
+  
+    .left-side {
+      padding: 20px;
+      margin-bottom: 30px;
+    }
+  
+    .login-box {
+      margin-top: 30px;
+    }
+  }

@@ -1,0 +1,18 @@
+.appoint-btns {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 9%;
+}
+
+.appoint-btns .btn {
+    width: 100%;
+    font-size: 32px; 
+}
+
+@media screen and (max-width: 768px) {
+    .appoint-btns .btn {
+        font-size: 24px;
+    }
+}

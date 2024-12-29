@@ -1,0 +1,95 @@
+.testi-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 0 20px; 
+    box-sizing: border-box;
+}
+
+.testi-wrapper {
+    width: 100%;
+    max-width: 1200px; 
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.testi-top-wrapper {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.testi-logo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px; 
+}
+
+.testi-header {
+    font-family: 'Days One', sans-serif;
+    color: #FF6C00;
+    font-weight: 400;
+    margin-left: 10px;
+}
+
+.testi-top-wrapper > h2 {
+    color: #2B4448;
+    margin-bottom: 20px; 
+    font-size: clamp(24px, 5vw, 32px); 
+}
+
+.testi-bot-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.testi-1-wrapper, .testi-2-wrapper, .testi-3-wrapper {
+    flex: 1; 
+    margin: 0 10px; 
+}
+
+.testi-1, .testi-2, .testi-3 {
+    width: 100%;
+    height: auto; 
+    border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+    .testi-bot-wrapper {
+        flex-direction: column; 
+    }
+
+    .testi-1-wrapper, .testi-2-wrapper, .testi-3-wrapper {
+        width: 100%; 
+        margin: 10px 0; 
+    }
+
+    .testi-header {
+        font-size: 1.5rem; 
+    }
+
+    .testi-top-wrapper > h2 {
+        font-size: 1.75rem; 
+    }
+}
+
+@media (max-width: 576px) {
+    .testi-header {
+        font-size: 1.25rem; 
+    }
+
+    .testi-top-wrapper > h2 {
+        font-size: 1.5rem; 
+    }
+    
+}

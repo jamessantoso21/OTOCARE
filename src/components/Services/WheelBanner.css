@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.wheelb-container {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: flex-start;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2%;
+    margin-bottom: 150px;
+    padding: 0;
+    object-fit: contain;
+    
+}
+
+.wheelb-wrapper {
+    width: 100%; 
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    background: url('/gambarservices/Wheel.png') center center/cover no-repeat;
+}
+
+.wheelb-description-container {
+    display: flex;
+    height: 80%;
+    width: 40%; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    background-color: #fff;
+    padding: 0 5%;
+}
+
+
+
+.wheelb-img-container > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+
+.wheelb-description-container > h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-style: italic;
+    font-size: 2.25rem;
+}
+
+.wheelb-description-container > p {
+    font-family: 'Inter', sans-serif;
+    font-style: italic;
+    font-size: 1.4rem;
+    text-align: justify;
+    letter-spacing: -2%;
+    text-align: center;
+    margin-top: 40px;
+}
+
+@media  screen and (max-width:1265px) {
+    .wheelb-description-container {
+        width: 40%; 
+        padding: 5% 5%; 
+    }
+
+    .wheelb-description-container > h1 {
+        font-size: 1.5rem; 
+    }
+
+    .wheelb-description-container > p {
+        font-size: 0.9rem; 
+        margin-top: 15px; 
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .wheelb-description-container {
+        width: 50%; 
+        padding: 5% 5%; 
+    }
+
+    .wheelb-description-container > h1 {
+        font-size: 1.2rem; 
+    }
+
+    .wheelb-description-container > p {
+        font-size: 0.9rem; 
+        margin-top: 15px; 
+    }
+}
+

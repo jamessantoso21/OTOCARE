@@ -1,0 +1,149 @@
+.footer-container {
+    background-color: #121F45;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.footer-wrapper {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 5%;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.footer-left {
+    height: 100%;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+}
+.footer-logo>img{
+    width: 100%;
+    height: auto;
+}
+
+.footer-left > h1 {
+    color: #fff;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 1rem;
+    margin-top: 64px;
+}
+
+.footer-mid {
+    height: 100%;
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+
+}
+
+.footer-mid > h1, h2 {
+    color: #fff;
+    font-family: Days One;
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+.footer-mid > p {
+    color: #fff;
+    font-family: Inter;
+}
+
+.p1 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.p2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.footer-right {
+    height: 100%;
+    width: 35%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+}
+
+.footer-right > h1 {
+    color: #fff;
+    font-family: Days One;
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+.footer-logo-wrapper {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    column-gap: 20%;
+}
+
+@media (max-width: 768px) {
+    .footer-wrapper {
+        width: 90%;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+
+    .footer-left, .footer-mid, .footer-right {
+        width: 100%;
+        align-items: center;
+        padding-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .footer-left > h1, .footer-mid > h1, .footer-right > h1 {
+        margin-top: 20px;
+    }
+
+    .footer-logo-wrapper {
+        width: 50%;
+        justify-content: center; 
+        margin-top: 20px;
+    }
+
+    .footer-logo-wrapper img {
+        margin: 0 10px; 
+    }
+}
+
+@media (max-width: 480px) {
+    .footer-wrapper {
+        width: 100%;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+
+    .footer-left > h1, .footer-mid > h1, .footer-right > h1 {
+        font-size: 0.9rem;
+        margin-top: 10px;
+    }
+
+    .footer-logo-wrapper {
+        width: 60%;
+        justify-content: center; 
+    }
+
+    .footer-logo-wrapper img {
+        margin: 0 5px; 
+    }
+}

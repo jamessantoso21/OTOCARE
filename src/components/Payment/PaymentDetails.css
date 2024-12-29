@@ -1,0 +1,206 @@
+:root{
+    background-color: #D9D9D9;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+}
+
+.PaymentDetails-container{
+    margin-bottom: 10%;
+}
+
+.PaymentDetails-wrapper{
+    background-color: #FFFFFF;
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    align-items: center;
+    justify-content: center;
+    height: 80%;
+}
+
+.PaymentDetails-wrapper-top{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;
+    height: 130px;
+}
+
+.standard-btns,.premium-btns,.PayAtMerchant-btns{
+    .btn{
+        background-color: #D9D9D9;
+        color: black;
+        border-color: #D9D9D9;
+        margin-left: 0%;
+    }
+}
+
+.PaymentDetails-wrapper-middle{
+    display: flex;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-between;
+    height: auto;
+}
+
+.ServicePayment{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+    height: 50px;
+}
+
+.MobileServiceCharge,.Subtotal,.Merchant{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-between;
+    height: 50px;
+}
+
+.ServicePayment>p,.MobileServiceCharge>p,.Subtotal>p,.PaymentMethod>h1,.Merchant>p{
+    font-family: "Days One", sans-serif;
+}
+
+.PaymentDetails-margin{
+    padding: 7% 10%;
+    align-items: center;
+    
+}
+
+.PaymentDetails-wrapper-bottom{
+    margin-top: 5%;
+    display:flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+    height: 200px;
+}
+
+.Merchant{
+    height: 50px;
+}
+
+.PaymentMethod>h1{
+    margin-top: 10%;
+    font-size: 32px
+}
+
+.order-btns{
+    width: 100%;
+    .btn{
+        margin-left: 0%;
+        width: 100%;
+    }
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.paymentMethod-btn{
+    background-color: var(--orange);
+    height: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 4%;
+    color: white;
+    font-weight: 600;
+    width: 100%;
+
+}
+
+.paymentMethod-btn:hover{
+    background-color: var(--lightOrange);
+}
+
+.paymentMethod-img{
+    width: 4.5%;
+    height: 60%;
+}
+
+.debit-container{
+    width: 25%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.debit-img{
+    width: 25%;
+    height: 65%;
+}
+
+@media screen and (max-width: 768px) {
+    .PaymentDetails-wrapper {
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        height: auto;
+    }
+
+    .PaymentDetails-wrapper-top {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .standard-btns .btn, .premium-btns .btn, .PayAtMerchant-btns .btn {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .PaymentDetails-wrapper-middle {
+        padding: 0 5%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .PaymentDetails-wrapper {
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 0 5%;
+    }
+
+    .PaymentDetails-wrapper-top {
+        height: auto;
+    }
+
+    .PaymentMethod > h1 {
+        font-size: 1.5rem;
+    }
+
+    .ServicePayment > p, .MobileServiceCharge > p, .Subtotal > p, .Merchant > p {
+        font-size: 1rem;
+    }
+
+    .order-btns .btn {
+        font-size: 0.9rem;
+        padding: 10px 20px;
+    }
+
+    .paymentMethod-btn {
+        font-size: 0.9rem;
+    }
+
+    .paymentMethod-img {
+        width: 6%;
+        height: auto;
+    }
+
+    .debit-container {
+        width: 35%;
+    }
+
+    .debit-img {
+        width: 35%;
+    }
+}

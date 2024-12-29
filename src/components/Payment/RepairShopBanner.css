@@ -1,0 +1,121 @@
+:root{
+    background-color: #D9D9D9;
+}
+
+.rsb-container{
+    
+    height: 450px;
+    width: 100%;
+    display:flex;
+    justify-content: flex-start;
+    align-items: center;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    justify-content: space-between;
+    object-fit: contain;
+    background: url('/RepairShopBanner.png') center center/cover no-repeat;
+}
+
+.rsb-wrapper{
+
+    width: 45%;
+    margin-left: 5%;
+    margin-top: 10%;
+  
+}
+
+.rsb-wrapper-top{
+
+    height: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+}
+
+
+.rsb-wrapper-top>h1{
+    font-family: "Days One", sans-serif;
+    color:#fff;
+    font-weight: 400;
+   
+}
+
+.rsb-wrapper-top>p{
+
+    color:#fff;
+    font-family: "Days One", sans-serif;
+    font-size: 1.2rem;
+    text-align: justify;
+    margin-top: 2%;
+}
+
+.rsb-rating{
+    display: flex;
+    color:#fff;
+    font-family: "Days One", sans-serif;
+    font-size: 1.2rem;
+    margin-top: 2%;
+    align-items: center;
+    width: 50%;
+    column-gap: 5%;
+}
+
+@media screen and (max-width: 768px) {
+    .rsb-container {
+        flex-direction: column;
+        height: auto;
+        padding: 20px;
+    }
+
+    .rsb-wrapper {
+        width: 90%;
+        margin: 0;
+        margin-top: 5%;
+    }
+
+    .rsb-wrapper-top {
+        align-items: center;
+    }
+
+    .rsb-wrapper-top > h1 {
+        font-size: 2rem;
+        text-align: center;
+    }
+
+    .rsb-wrapper-top > p {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .rsb-rating {
+        width: 80%;
+        justify-content: center;
+    }
+}
+
+/* Mobile devices */
+@media screen and (max-width: 480px) {
+    .rsb-container {
+        padding: 10px;
+    }
+
+    .rsb-wrapper {
+        width: 100%;
+        margin-top: 10%;
+    }
+
+    .rsb-wrapper-top > h1 {
+        font-size: 1.5rem;
+    }
+
+    .rsb-wrapper-top > p {
+        font-size: 0.9rem;
+    }
+
+    .rsb-rating {
+        font-size: 1rem;
+        width: 100%;
+        column-gap: 10px;
+    }
+}
